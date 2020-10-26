@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/robots",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "majcher",
+      "email": "majchrosoft@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MarsDiscovery\\": "src/"
+    }
+  },
+  "require": {
+    "php-di/php-di": "^6.3"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^6.2"
+  }
+}
